@@ -1,0 +1,81 @@
+.api_section_2{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: #202329;
+}
+.img1{
+    width: 30%;
+    height: 350px;
+    background-size: cover;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    opacity: 0.4;
+    /* background-image: url(../image/F_rick.png); */
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_1{
+    width: 8%;
+    height: 70px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.nav_2{
+    width: 40%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.img2{
+    width: 50px;
+    height: 47px;
+}
+.nav_2_1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    padding-top :5px;
+}
+.nav_2_1:hover{
+    color: #A1D920;
+}
+.nav_2_2:hover{
+    color: #A1D920;
+}
+.nav_2_2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    padding-top :5px;
+}
+.nav_2_3 button{
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 30px;
+    border: 2px solid #A1D920;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.nav_2_3 button:hover{
+    background-color: #A1D920;
+    color: #202329;
+}
+.main{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 170px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1 ;
+}
